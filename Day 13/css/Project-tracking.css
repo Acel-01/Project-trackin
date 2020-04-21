@@ -1,0 +1,213 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.318vw;
+}
+h1, .top-nav, #o1, #o5{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+}
+.flex-con{
+    width: 50%;
+}
+.b3{
+    max-width: 100%;   
+    float: right;
+}
+.a1{
+    padding-left: 100px;
+}
+.c4{
+    padding-left: 100px;
+    display: inline;
+    padding-top: 30px;
+}
+.it{
+    padding-bottom: 80px;
+}
+.top-nav{
+    display: inline-block;
+    padding-left: 40%;
+}
+.top-nav > a{
+    float: inline-end;
+    text-decoration: none;
+    padding-left: 45px;
+}
+.top-nav > a:hover{
+    text-decoration: underline;
+}
+.fas{
+    color: hsl(231, 7%, 65%);
+}
+.rt{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.ok{
+    margin-bottom: -25px;
+}
+
+.lll{
+    color: hsl(0, 100%, 68%);
+    color: hsl(230, 29%, 20%);
+    color: hsl(230, 11%, 40%);
+    color: hsl(231, 7%, 65%);
+    color: hsl(207, 33%, 95%);
+}
+
+#o1{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#o2{
+    padding-left: 10px;
+    color: hsl(231, 7%, 65%);
+}
+#o3{
+    
+}
+#o4{
+    color: hsl(230, 11%, 40%);
+}
+#o5{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: hsl(207, 33%, 95%);
+    background-color: hsl(0, 100%, 68%);
+    border-color: hsl(0, 100%, 68%);
+    font-size: 18px;
+}
+#o5:hover{
+    background-color: hsl(0, 75%, 61%);
+    border-color: hsl(0, 75%, 61%);
+}
+#o6{
+    padding-left: 10px;
+    color: hsl(231, 7%, 65%);
+}
+#o7{
+    color: hsl(231, 7%, 65%);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body{
+        font-family: 'Barlow', sans-serif;
+        font-size: 4vw;
+    }
+    h1, .top-nav, #o1, #o5{
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;  
+        justify-content: stretch;
+        align-items: stretch;
+    }
+    .flex-con{
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .b3{
+        max-width: 100%;   
+    }
+    .a1{
+        padding-left: 10px;
+        
+    }
+    .c4{
+        padding-left: 10px;
+        display: inline;
+        padding-top: 30px;
+    }
+    .it{
+        padding-bottom: 80px;
+    }
+    .top-nav{
+        display: inline-block;
+        padding-left: 10%;
+    }
+    .top-nav > a{
+        float: inline-end;
+        text-decoration: none;
+        padding-left: 25px;
+    }
+    .top-nav > a:hover{
+        text-decoration: underline;
+    }
+    .fas{
+        color: hsl(231, 7%, 65%);
+    }
+    .rt{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+       
+    }
+    .t{
+        justify-content: center;
+    }
+    .ok{
+        margin-bottom: -25px;
+    }
+    
+    .lll{
+        color: hsl(0, 100%, 68%);
+        color: hsl(230, 29%, 20%);
+        color: hsl(230, 11%, 40%);
+        color: hsl(231, 7%, 65%);
+        color: hsl(207, 33%, 95%);
+    }
+    
+    #o1{
+        padding: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    #o2{
+        padding-left: 10px;
+        color: hsl(231, 7%, 65%);
+    }
+    #o3{
+        
+    }
+    #o4{
+        color: hsl(230, 11%, 40%);
+    }
+    #o5{
+        text-decoration: none;
+        border-radius: 5px;
+        padding-right: 40px;
+        padding-left: 40px;
+        color: hsl(207, 33%, 95%);
+        background-color: hsl(0, 100%, 68%);
+        border-color: hsl(0, 100%, 68%);
+        font-size: 4vw;
+    }
+    #o5:hover{
+        background-color: hsl(0, 75%, 61%);
+        border-color: hsl(0, 75%, 61%);
+    }
+    #o6{
+        padding-left: 10px;
+        color: hsl(231, 7%, 65%);
+    }
+    #o7{
+        color: hsl(231, 7%, 65%);
+    }
+}
